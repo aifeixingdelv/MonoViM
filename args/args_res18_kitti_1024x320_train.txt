@@ -1,0 +1,26 @@
+--data_path ../data/kitti
+--log_dir ../logs
+--model_name res18_M1024x320
+--split eigen_zhou
+--eval_split eigen
+--backbone resnet
+--num_layers 18
+--dataset kitti
+--png
+--height 320
+--width 1024
+--scales 0 1 2 3
+--min_depth 0.1
+--max_depth 100
+--frame_ids 0 -1 1
+--batch_size 12
+--learning_rate 1e-4
+--num_epochs 30
+--scheduler_step_size 25
+--num_workers 12
+--seed 1234
+--weights_init pretrained
+--pose_model_input pairs
+--pose_model_type separate_resnet
+--log_frequency 250
+--save_frequency 500

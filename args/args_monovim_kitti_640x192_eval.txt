@@ -1,0 +1,9 @@
+--pretrained_path /root/autodl-tmp/monodepth2/models/kitti_mono_640x192
+--backbone MonoViM_LST
+--batch_size 12
+--height 192
+--width 640
+--num_workers 12
+--min_depth 0.1
+--max_depth 100.0
+--kitti_path /root/autodl-tmp/data/kitti

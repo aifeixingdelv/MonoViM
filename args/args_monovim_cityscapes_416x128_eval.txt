@@ -1,0 +1,9 @@
+--pretrained_path /root/tf-logs/monovim_v2_cityscapes_416x128_finetune/models/weights_0
+--backbone MonoViM_LST
+--batch_size 12
+--height 128
+--width 416
+--num_workers 12
+--min_depth 0.1
+--max_depth 100.0
+--cityscapes_path /root/autodl-tmp/data/CityScapes_Raw/leftImg8bit_sequence_trainvaltest

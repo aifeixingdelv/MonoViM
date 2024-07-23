@@ -1,0 +1,22 @@
+--data_path /root/autodl-tmp/data/CityScapes_Raw/leftImg8bit_sequence_trainvaltest
+--data_path_pre /root/autodl-tmp/data/CityScapes/
+--log_dir /root/tf-logs
+--model_name monovim_cityscapes_416x128_finetune
+--backbone MonoViM_LST
+--dataset cityscapes
+--height 128
+--width 416
+--scales 0 1 2 3
+--min_depth 0.1
+--max_depth 100
+--frame_ids 0 -1 1
+--batch_size 12
+--learning_rate 1e-5
+--num_epochs 30
+--scheduler_step_size 25
+--num_workers 12
+--seed 1234
+--load_weights_folder /root/autodl-tmp/monodepth2/models/monovim_mono_640x192
+--models_to_load encoder depth pose_encoder pose
+--log_frequency 250
+--save_frequency 500
