@@ -6,10 +6,8 @@ An Enhancing Self-supervised Monocular Depth Estimation via Mamba.\
 ![Framework](https://img.shields.io/badge/framework-PyTorch-red.svg)
 
 ## 📈 Result
-<div style="text-align: center;">
-<img src="assets/kitti.png" alt="Result" width="800">
-<img src="assets/gpu+fps.png" alt="Result" width="800">
-</div>
+![kitti](assets/kitti.png)
+![gpu+fps](assets/gpu+fps.png)
 
 ## 📥 Installation
 ### Step 1. Clone MonoViM repository
