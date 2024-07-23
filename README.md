@@ -55,7 +55,7 @@ When evaluating the model, you need to export the gt depth of test images. You c
 ### 2. CityScapes Dataset
 **For [CityScapes](https://www.cityscapes-dataset.com/), You should download and unzip the following packages:**\
 (1) leftImg8bit_sequence_trainvaltest.zip \
-(2) camera_trainvaltest.zip 
+(2) camera_trainvaltest.zip \
 **Then preprocess data by running the following command:**
 ~~~
 python prepare_cityscapes.py \
