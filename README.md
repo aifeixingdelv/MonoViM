@@ -68,7 +68,7 @@ python prepare_cityscapes.py \
 ~~~
 You must set --dataset_dir and --dump_root flags according to your own raw_data_path and preprocessed_data_path.
 ### 3. Make3D Dataset
-**For [Make3D](http://make3d.cs.cornell.edu/data.html#make3d), you only need to download and unzip [Test134.tar.gz](http://www.cs.cornell.edu/~asaxena/learningdepth/Test134.tar.gz) and [Test134Depth.tar.gz](http://www.cs.cornell.edu/~asaxena/learningdepth/Test134Depth.tar.gz) from Dataset-1.**
+For [Make3D](http://make3d.cs.cornell.edu/data.html#make3d), you only need to download and unzip [Test134.tar.gz](http://www.cs.cornell.edu/~asaxena/learningdepth/Test134.tar.gz) and [Test134Depth.tar.gz](http://www.cs.cornell.edu/~asaxena/learningdepth/Test134Depth.tar.gz) from Dataset-1.
 
 ## ⏩️ Training
 **KITTI Training:**\
