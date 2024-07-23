@@ -1,9 +1,10 @@
 # MonoViM
 An Enhancing Self-supervised Monocular Depth Estimation via Mamba.\
 \
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![Framework](https://img.shields.io/badge/framework-PyTorch-red.svg)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ## 📈 Result
 <div style="text-align: center;">
 <img src="assets/kitti.png" alt="Result" width="800">
@@ -55,7 +56,6 @@ When evaluating the model, you need to export the gt depth of test images. You c
 **For [CityScapes](https://www.cityscapes-dataset.com/), You should download and unzip the following packages:**\
 (1) leftImg8bit_sequence_trainvaltest.zip \
 (2) camera_trainvaltest.zip 
-
 **Then preprocess data by running the following command:**
 ~~~
 python prepare_cityscapes.py \
